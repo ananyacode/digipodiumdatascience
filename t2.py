@@ -135,15 +135,14 @@ def draw_circle():
 def draw_c1():
     c1=turtle.Turtle()
     c1.dot(50)
-
-
-
-
-
-    
-   
-
-
+def draw_star():
+    s=turtle.Turtle()
+    s.fd(100)
+    s.rt(75)
+    for i in range(4):
+        s.fd(100)
+        s.rt(144)
+draw_star()
 
 
 
