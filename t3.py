@@ -1,3 +1,4 @@
+import turtle
 from turtle import *
 
 pencolor('yellow')
@@ -18,4 +19,4 @@ for i in range(5):
         lt(360/5)
 
 hideturtle()
-mainloop
+mainloop()
