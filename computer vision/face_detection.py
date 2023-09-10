@@ -65,4 +65,4 @@ with FaceDetector.create_from_options(options) as detector:
             break
     cam.release()
     cv2.destroyAllWindows()
-       
+    
